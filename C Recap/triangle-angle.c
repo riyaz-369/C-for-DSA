@@ -20,9 +20,9 @@ int main()
     C = acos((a * a + b * b - c * c) / (2 * a * b));
 
     // convert radians to degrees
-    A = A * 180.0 / acos(-1.0);
-    B = B * 180.0 / acos(-1.0);
-    C = C * 180.0 / acos(-1.0);
+    A = A * 180 / acos(-1.0);
+    B = B * 180 / acos(-1.0);
+    C = C * 180 / acos(-1.0);
 
     printf("Angles are: A = %.2f°, B = %.2f°, C = %.2f°\n", A, B, C);
 
